@@ -42,13 +42,18 @@ class VideoGamesChat extends Component {
   editPost(userId, body) {
     console.log({ body });
 
-    axios.put(`/api/VideoGamesChat/${userId}`, { body }).then(res => {
-      console.log("res.data", res.data);
-      this.setState({
-        messages: res.data,
-        toggleEdit: false
+    axios
+      .put(`/api/VideoGamesChat/${userId}`, { body })
+      .then(res => {
+        console.log("res.data", res.data);
+        this.setState({
+          messages: res.data,
+          toggleEdit: false
+        });
+      })
+      .catch(err => {
+        console.log(err);
       });
-    });
   }
   toggleEdit() {
     this.setState({
@@ -134,7 +139,7 @@ class VideoGamesChat extends Component {
                 value={this.state.newMessage}
                 name="newMessage"
                 className="message-input"
-                placeholder="Speak your mind about VideovGames!"
+                placeholder="Speak your mind about Video Games!"
                 onChange={e => handleChange(e)}
               />
               <div>

@@ -19,7 +19,7 @@
 .test {
   display: flex;
   justify-content: center;
-  background-color: white;
+  background-image: url(https://www.ynetnews.com/PicServer5/2018/03/22/8424591/84245900100792640360no.jpg);
   border: thin 1rem #6dbb0d;
   max-height: 900px;
   width: auto;
@@ -33,7 +33,7 @@
   margin: 1rem 0 0 0;
 }
 .divy {
-  background-color: white;
+  background-color: transparent;
 }
 .deleteButton {
   max-height: 1.5rem;

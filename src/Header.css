@@ -53,6 +53,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  background-image: url(https://timedotcom.files.wordpress.com/2019/07/plastic-garbage.jpg);
 }
 .TrashTalking {
   background-color: white;
@@ -62,4 +63,8 @@ a {
 }
 .TTH1 {
   background-color: white;
+}
+
+.navBar {
+  margin: 1rem;
 }

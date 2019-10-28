@@ -27,7 +27,7 @@ function Header() {
           />
         </div>
       </header>
-      <nav>
+      <nav className="navBar">
         <Link to="/api/VideoGames">Video Games Chat</Link>
         <Link to="/api/Music">Music Chat</Link>
         <Link to="/api/MoviesAndTv"> Movies and TV Chat</Link>
