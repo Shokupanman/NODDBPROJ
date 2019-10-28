@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./Header";
 import Routes from "./Routes";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -12,6 +13,17 @@ function App() {
           <header className="MSHeader">
             <div className="h2Holder">
               <h2>WHY GROUCH CHAT???</h2>
+            </div>
+            <div className="aGoodJoke">
+              <h1 className="jokeH1"> Dont have bad opinions?</h1>
+              <a
+                href="https://theweek.com/bad-opinions/156280"
+                className="funnyLink"
+                target="_blank"
+              >
+                Click me!
+              </a>
+              <p className="anotherJoke">*click at your own risk*</p>
             </div>
           </header>
           <div className="MSP">

@@ -29,9 +29,9 @@
 }
 .MSHeader {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  max-width: 600px;
+  max-width: auto;
   max-height: 400px;
   background-color: #6dbb0d;
 }
@@ -43,6 +43,7 @@
   width: 500px;
   height: 170px;
   opacity: 0.8;
+  margin: 1rem;
 }
 
 h2 {
@@ -80,4 +81,28 @@ h2 {
   background-color: #6dbb0d;
   font-family: monospace;
   font-size: 20px;
+}
+.aGoodJoke {
+  background-color: #6dbb0d;
+  max-width: 300px;
+  margin: 1rem;
+}
+
+.jokeH1 {
+  background-color: #6dbb0d;
+  font-family: monospace;
+  font-size: 3rem;
+}
+
+.funnyLink {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border-radius: 30%;
+  border: 3px double #6dbb0d;
+}
+.anotherJoke {
+  background-color: #6dbb0d;
+  font-family: monospace;
+  margin: 1rem;
 }

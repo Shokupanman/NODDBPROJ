@@ -49,3 +49,17 @@ a {
   background-color: #6dbb0d;
   border-radius: 5%;
 }
+.Hdawg {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.TrashTalking {
+  background-color: white;
+  border-radius: 20%;
+  max-height: 100px;
+  width: 300px;
+}
+.TTH1 {
+  background-color: white;
+}

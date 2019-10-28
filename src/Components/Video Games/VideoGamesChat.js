@@ -111,9 +111,13 @@ class VideoGamesChat extends Component {
 
     return (
       <div>
+        <script
+          src="https://kit.fontawesome.com/ed01c35dcb.js"
+          crossorigin="anonymous"
+        ></script>
         <div className="textBox">
           <header className="chat-header">
-            Lets have a chat about VideovGames
+            Lets have a chat about Video Games
           </header>
           <aside className="left-sidebar"></aside>
           <hr />

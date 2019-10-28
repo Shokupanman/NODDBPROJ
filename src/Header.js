@@ -7,7 +7,7 @@ function Header() {
   return (
     <>
       <div></div>
-      <header>
+      <header className="Hdawg">
         <h1 className="GCTitle">
           <img
             className="logo"
@@ -18,6 +18,14 @@ function Header() {
             Grouch-Chat!
           </Link>
         </h1>
+        <div className="TrashTalking">
+          <h1 className="TTH1">Wanna talk trash??</h1>
+          <img
+            className="ExtraLogo"
+            src="https://www.copyblogger.com/cdn-origin/images/oscar.jpg"
+            alt="grouch"
+          />
+        </div>
       </header>
       <nav>
         <Link to="/api/VideoGames">Video Games Chat</Link>
