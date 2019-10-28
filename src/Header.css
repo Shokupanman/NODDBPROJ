@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  width: auto;
+  height: 200px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+img {
+  display: fixed;
+  height: 160px;
+  width: 180px;
+  border-radius: 50%;
+}
+.GCTitle {
+  background-color: #6dbb0d;
+  display: flex;
+  width: 600px;
+  height: 180px;
+  align-items: center;
+  justify-content: space-around;
+  opacity: 60%;
+  box-shadow: gray;
+  border-radius: 10%;
+}
+.grouchLink {
+  color: white;
+  text-decoration: none;
+  opacity: 90%;
+  font-size: 80px;
+  font-family: monospace;
+  background-color: transparent;
+  width: auto;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+  color: white;
+  text-decoration: transparent;
+  font-family: monospace;
+  font-size: 30px;
+  width: 200px;
+  background-color: #6dbb0d;
+  border-radius: 5%;
+}

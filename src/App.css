@@ -1,22 +1,83 @@
+* {
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #09d3ac;
+}
+.mainScreen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: auto;
+  border: 2rem double #6dbb0d;
+  margin: 1rem;
+}
+.MSHD {
+  width: 1150px;
+  height: 650px;
+}
+.MSHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  max-height: 400px;
+  background-color: #6dbb0d;
+}
+.h2Holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 500px;
+  height: 170px;
+  opacity: 0.8;
+}
+
+h2 {
+  background-color: white;
+  font-size: 60px;
+  font-family: monospace;
+}
+.MSP {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  height: 300px;
+  margin: 2rem;
+  border: 1rem thin #6dbb0d;
+  background-color: #6dbb0d;
+}
+.pHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 260px;
+  width: 860px;
+}
+.DescriptionHolder {
+  width: 700px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6dbb0d;
+}
+.Description {
+  color: white;
+  background-color: #6dbb0d;
+  font-family: monospace;
+  font-size: 20px;
 }
