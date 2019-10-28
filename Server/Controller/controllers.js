@@ -3,6 +3,7 @@ let userId = 0;
 
 module.exports = {
   post: (req, res) => {
+    console.log(req.body);
     let newMessages = { ...req.body, userId };
     ++userId;
     messages.push(newMessages);
@@ -15,10 +16,12 @@ module.exports = {
     res.status(200).send(messages);
   },
   edit: (req, res) => {
+    console.log(req.body.body);
+
     let { userId } = req.params;
-    let { message } = req.body;
+    let { body } = req.body;
     let index = messages.findIndex(el => el.userId === +userId);
-    messages[index].userId = message;
+    messages[index].message = body;
     res.status(200).send(messages);
   },
   getMessages: (req, res) => {

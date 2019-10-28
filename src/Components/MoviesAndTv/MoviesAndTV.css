@@ -1,0 +1,58 @@
+.message-input {
+  background-color: white;
+  width: 300px;
+}
+.chat-header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #6dbb0d;
+  color: white;
+  font-family: monospace;
+  font-size: 2rem;
+  max-height: 100px;
+  max-width: 300px;
+  margin: 2rem;
+  border-radius: 15%;
+}
+
+.test {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: thin 1rem #6dbb0d;
+  max-height: 900px;
+  width: auto;
+}
+.testT {
+  max-width: 800px;
+  background-color: #6dbb0d;
+  font-family: monospace;
+  font-size: 2rem;
+  border-radius: 10%;
+  margin: 1rem 0 0 0;
+}
+.divy {
+  background-color: white;
+}
+.deleteButton {
+  max-height: 1.5rem;
+  background-color: black;
+  color: #6dbb0d;
+  margin: 0 0 0 1rem;
+}
+.editButton {
+  max-height: 1.5rem;
+  background-color: black;
+  color: #6dbb0d;
+  margin: 0 0 0 1rem;
+}
+.sendButton {
+  max-height: 1.5rem;
+  background-color: black;
+  color: #6dbb0d;
+  border: 6px thick #6dbb0d;
+}
+.editInput {
+  color: #6dbb0d;
+}

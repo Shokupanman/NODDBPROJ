@@ -23,8 +23,8 @@ function Header() {
         <Link to="/api/VideoGames">Video Games Chat</Link>
         <Link to="/api/Music">Music Chat</Link>
         <Link to="/api/MoviesAndTv"> Movies and TV Chat</Link>
-        {Routes}
       </nav>
+      {Routes}
 
       <div></div>
     </>
